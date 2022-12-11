@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+#fireworks {
+    height: 50vh;
+}
+
+#sober {
+    color: aliceblue;
+    text-align: center;
+}
+
+.green {
+    animation: colore infinite 10s;
+}
+
+@keyframes colore {
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
